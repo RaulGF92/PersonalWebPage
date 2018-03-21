@@ -1,13 +1,21 @@
-<html>
+<!doctype html>
+
+<html lang="en">
 
 <head>
-    <title>Profile WebSite</title>
-    <meta charset="utf-8"></meta>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+
+    <title>RaulGF</title>
 </head>
 
 <body>
-    <div class="containerCenter">
+    <div class="mainWindow">
         <div class="logo">
             <svg width="754" height="855">
                 <defs id="SvgjsDefs1287">
@@ -37,7 +45,108 @@
                 </g>
             </svg>
         </div>
+        <div class="menu">
+            <div class="menuItem">
+                <lable>Knowledge</label>
+            </div>
+            <div class="menuItem">
+                <label>Projects</label>
+            </div>
+            <div class="menuItem">
+                <label>Contact</label>
+            </div>
+        </div>
     </div>
+
+    <div class="knowledge">
+        <div class="container">
+            <div class="titleMenu">
+                <h1>knowledge</h1>
+                <sub>This content shows all studies, pieces of knowledge and skills learned by years</sub>
+            </div>
+            <div class="knowledgeInfo">
+                <div class="card firstInfoItem">
+                    <ul class="list-group list-group-flush" id="studiesFather">
+                        <li class="list-group-item active" id="studies">Studies</li>
+                        <li class="list-group-item" id="frontend">Desing Web Fronted</li>
+                        <li class="list-group-item" id="backend">Desing Web Backend</li>
+                        <li class="list-group-item" id="database">Desing DataBase</li>
+                    </ul>
+                </div>
+                <div class="card secondInfoItem">
+                    <div id="studiesInfoFill" class="card-body infoFill">
+                        <h3 class="titleMenu">Studies</h3>
+                        <p>My academic studies was developed in
+                            <strong>Computer Engineer</strong> in my natal university in Oviedo (Asturias). It was them who teach
+                            me to code in Java and learn all skills that I have in algorithmics and data structure. Also,
+                            they give me the capability to resolve problems with a way more analytics and professional.</p>
+                        <img style="width:100%;padding:2%;" src="assets/img/computerengennier.jpeg">
+                        <p>In mine, not academic studies, I was learning web technologies for making a better work in my different
+                            jobs. I studied Angular's frameworks, Javascript and Typescript in some online courses and origin
+                            framework website. Also, I focused on code clean and patterns design, reading Martin's books
+                            and show website, all this give me the ability to make a more clean and efficient work. </p>
+                    </div>
+                    <div id="frontendInfoFill" class="card-body infoFill" style="display:none">
+                        <h3 class="titleMenu">Develop Fronted</h3>
+                        <p>My abilities about web frontend are wide and maybe are one of my strongest points. </p>
+                        <p>I started devel web frontend using Angular.js and Jquery. Then with the time learn new frameworks
+                            like Angular, Meteor and a little of CSS.</p>
+                        <div class="imgContainer">
+                            <img class="meteor" src="https://d14xs1qewsqjcd.cloudfront.net/assets/logo.svg">
+                            <img src="assets/img/angular.svg">
+                        </div>
+                        <p>In reference to CSS technologies, i know use templates frameworks like Bootstrap or more specialized
+                            like Angular Material or Ionic. </p>
+                        <div class="imgContainer">
+                            <img src="assets/img/bootrap.png">
+                            <img style="width:215px" src="assets/img/inonic.png">
+                        </div>
+                    </div>
+                    <div id="backendInfoFill" class="card-body infoFill" style="display:none">
+                        <h3 class="titleMenu">Develop Backend</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills">
+                <div class="titleMenu">
+                    <h1>Skills</h1>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        Java</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        JavaScript</div>
+                </div>
+                <div class="progress">
+
+                    <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        TypeScript</div>
+                </div>
+                <div class="progress">
+
+                    <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        CSS</div>
+                </div>
+                <div class="progress">
+
+                    <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        GraphQL</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
