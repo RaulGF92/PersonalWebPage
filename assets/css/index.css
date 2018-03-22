@@ -37,6 +37,7 @@ body {
 }
 
 .knowledge {
+  min-height: calc(100vh);
   background-color: snow;
   padding-bottom: 2%;
 }
