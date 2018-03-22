@@ -10,6 +10,7 @@ body {
 .mainWindow .logo {
   transform: scale(0.302339);
   padding-left: 25%;
+  height: calc(100vh*0.85);
 }
 
 .menu {
@@ -19,18 +20,24 @@ body {
 
 .menuItem {
   margin: auto;
-  color: #444544;
-  background-color: rgb(248, 199, 108);
-  padding: 10%;
   font-size: 190%;
+  width: 25%;
   border-radius: 20%;
   font-family: "Saira Extra Condensed", sans-serif;
   text-align: center;
+  background-color: transparent;
+  color: rgb(248, 199, 108);
+  border: rgb(248, 199, 108) 1px groove;
+  opacity: 0.8;
+}
+
+.menuItem:hover {
+  color: #444544;
+  background-color: rgb(248, 199, 108);
 }
 
 .knowledge {
   background-color: snow;
-  height: calc(100vh * 1.1);
 }
 
 .knowledgeInfo {
@@ -80,6 +87,6 @@ body {
 }
 
 .progress {
-    height: 35px;
-    margin: 2%;
+  height: 35px;
+  margin: 2%;
 }
