@@ -10,7 +10,7 @@ body {
 .mainWindow .logo {
   transform: scale(0.302339);
   padding-left: 25%;
-  height: calc(100vh*0.85);
+  height: calc(100vh * 0.85);
 }
 
 .menu {
@@ -38,6 +38,7 @@ body {
 
 .knowledge {
   background-color: snow;
+  padding-bottom: 2%;
 }
 
 .knowledgeInfo {
@@ -86,7 +87,33 @@ body {
   width: 215px;
 }
 
+.skills {
+  padding: 2%;
+  margin: 5%;
+}
+
 .progress {
   height: 35px;
   margin: 2%;
+}
+
+.allSkills {
+  display: flex;
+}
+
+.progressSkills {
+  padding: 5%;
+  background-color: #444544;
+  color: rgb(248, 199, 108);
+}
+
+.techySkills {
+  width: 33%;
+  margin: 3%
+}
+
+.progress-bar {
+  background-color: rgb(248, 199, 108);
+  color: #444544;
+
 }
