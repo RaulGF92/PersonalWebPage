@@ -1,0 +1,30 @@
+#contact {
+  background: radial-gradient(circle, #444544, #282828);
+  padding: 5%;
+}
+
+#contact .contact {
+    height: 40vh;
+}
+
+#contact .contactIcon {
+  width: 170px;
+  height: 150px;
+  border-radius: 100%;
+  background-color: rgb(248, 199, 108);
+  margin: auto;
+}
+
+#contact .contactIcon * {
+  font-size: 5rem;
+  margin: 21%;
+  margin-left: 34%;
+  color: #444544;
+}
+
+#contact .contactInfo {
+  text-align: center;
+  color: rgb(248, 199, 108);
+  padding: 8%;
+  font-size: 1.6rem;
+}

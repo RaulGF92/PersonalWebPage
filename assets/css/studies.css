@@ -1,0 +1,28 @@
+#studies {
+  margin: 0;
+}
+
+#studies .photo {
+  background-image: url("/assets/img/studies.jpg");
+  color: cornsilk;
+  text-align: center;
+  padding: calc(100vh * 0.2);
+  max-height: 55vh;
+}
+
+#studies .title {
+  border-bottom: solid 3px rgb(248, 199, 108);
+  width: 100%;
+  margin: 3%;
+  padding-top: 5%;
+}
+
+#studies .description {
+  padding: 2%;
+  max-height: 55vh;
+  font-size: 1.1rem;
+}
+
+#studies .listStudies {
+  height: 55vh;
+}

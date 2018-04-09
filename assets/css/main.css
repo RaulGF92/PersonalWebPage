@@ -1,0 +1,120 @@
+
+main {
+  background: radial-gradient(circle, #444544, #282828);
+  height: 95vh;
+  color: rgb(248, 199, 108);
+}
+
+main #contentMain {
+  max-width: 500px;
+  margin: auto;
+}
+
+#contentMain #image {
+  max-width: 250px;
+  margin: auto;
+  height: 70vh;
+  padding-top: 55%;
+}
+
+#contentMain #image img {
+  width: 250px;
+}
+
+#contentMain #title {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#contentMain #socialMedia ul {
+  list-style-type: none;
+}
+
+#contentMain #socialMedia li {
+  float: left;
+  margin: 8%;
+  font-size: 1.5rem;
+}
+
+nav {
+  background-color: rgb(248, 199, 108);
+  height: 5vh;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+nav ul {
+  display: none;
+  cursor: pointer;
+}
+
+nav label {
+  margin: 2%;
+  text-align: left;
+  border-bottom: 3px solid #212529;
+}
+
+.openMenu {
+  z-index: 1;
+  height: 100vh;
+  padding: 25%;
+  text-align: center;
+  color: #444544;
+  font-size: 2rem;
+}
+
+.openMenu ul {
+  list-style-type: none;
+  text-align: center;
+  display: block;
+  padding: 0;
+}
+
+.openMenu li {
+  border-top: 1px #444544 solid;
+}
+
+@media only screen and (min-width: 850px) {
+  #contentMain #image {
+    padding-top: calc(100vh * 0.3);
+    max-width: 350px;
+  }
+
+  #contentMain #image img {
+    width: 350px;
+  }
+
+  nav label {
+    margin: calc(100vw * 0.01);
+    margin-top: calc(100vw * 0.005);
+  }
+
+  nav:hover {
+    display: flex;
+    padding: 2%;
+  }
+
+  nav:hover ul {
+    padding: 0;
+    width: 40%;
+    margin-top: -15%;
+    display: block;
+    list-style: none;
+    margin: auto;
+  }
+
+  nav:hover li {
+    float: left;
+    border-left: 0.25px #444544 solid;
+    border-right: 0.25px #444544 solid;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  nav:hover li:hover {
+    color: cornsilk;
+  }
+
+  nav:hover label {
+    display: none;
+  }
+}

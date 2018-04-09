@@ -1,0 +1,45 @@
+#profile {
+  height: 90vh;
+}
+
+#profile .photo {
+  background-image: url("/assets/img/yo.jpg");
+}
+
+#profile #description {
+  height: 45vh;
+  max-height: 45vh;
+  background: radial-gradient(circle, #444544, #282828);
+}
+
+#profile #map {
+  width: 100%;
+}
+
+#profile #map #googleMap {
+  width: 98.5%;
+  height: 45vh;
+}
+
+#profile #description {
+  color: cornsilk;
+}
+
+#profile #description .title {
+  border-bottom: solid 3px rgb(248, 199, 108);
+  width: 100%;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-bottom: 3%;
+  padding-top: 5%;
+}
+
+#profile #description p {
+  text-align: center;
+  padding: 3%;
+  font-size: 1.4rem;
+}
+
+.noPadding {
+  padding: 0;
+}
