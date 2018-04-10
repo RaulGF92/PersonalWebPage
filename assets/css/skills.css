@@ -33,5 +33,14 @@
 }
 
 #skills .photo button {
-    margin: 5%;
+  margin: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  #skills .listSkills li {
+    width: 90px;
+  }
+  #skills .listSkills .frontend {
+    padding-top: 10%;
+  }
 }
