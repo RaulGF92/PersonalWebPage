@@ -3,7 +3,7 @@
 }
 
 #studies .photo {
-  background-image: url("/assets/img/studies.jpg");
+  background-image: url("/homepage/assets/img/studies.jpg");
   color: cornsilk;
   text-align: center;
   padding: calc(100vh * 0.2);
