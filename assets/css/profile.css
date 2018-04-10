@@ -47,7 +47,10 @@
 }
 
 @media only screen and (max-width: 600px) {
-    #profile .photo {
-        display: none;
-    }
+  #profile .photo {
+    display: none;
   }
+  #profile #description {
+    height: 55vh;
+  }
+}
