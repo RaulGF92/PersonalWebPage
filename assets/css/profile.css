@@ -1,5 +1,7 @@
 #profile {
   height: 90vh;
+  margin: 0;
+  width: 100%;
 }
 
 #profile .photo {
@@ -43,3 +45,9 @@
 .noPadding {
   padding: 0;
 }
+
+@media only screen and (max-width: 600px) {
+    #profile .photo {
+        display: none;
+    }
+  }

@@ -28,3 +28,9 @@
   padding: 8%;
   font-size: 1.6rem;
 }
+
+@media only screen and (max-width: 600px) {
+    #contact .contact {
+        height: 60vh;
+    }
+  }

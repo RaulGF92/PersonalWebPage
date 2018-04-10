@@ -26,3 +26,9 @@
 #studies .listStudies {
   height: 55vh;
 }
+
+@media only screen and (max-width: 600px) {
+    #studies .listStudies {
+        height: 100vh;
+      }
+  }
