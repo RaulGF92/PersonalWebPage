@@ -2,6 +2,7 @@ main {
   background: radial-gradient(circle, #444544, #282828);
   height: 95vh;
   color: rgb(248, 199, 108);
+  border-bottom: 3px solid rgb(248, 199, 108);
 }
 
 main #contentMain {

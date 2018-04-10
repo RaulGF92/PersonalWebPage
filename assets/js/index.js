@@ -28,3 +28,13 @@ $("#menuContact").on("click", function(event) {
   event.preventDefault();
   goTo("contact");
 });
+
+$("#menuExperience").on("click", function(event) {
+  event.preventDefault();
+  goTo("experience");
+});
+
+$("#menuSkills").on("click", function(event) {
+  event.preventDefault();
+  goTo("skills");
+});

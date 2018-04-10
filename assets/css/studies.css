@@ -1,5 +1,7 @@
 #studies {
   margin: 0;
+  background: radial-gradient(circle, #444544, #282828);
+  color: cornsilk;
 }
 
 #studies .photo {
@@ -28,7 +30,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-    #studies .listStudies {
-        height: 100vh;
-      }
+  #studies .listStudies {
+    height: 100vh;
   }
+}

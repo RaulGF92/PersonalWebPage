@@ -1,0 +1,37 @@
+#skills .photo {
+  background-image: url("/homepage/assets/img/code.jpg");
+  background-repeat: no-repeat;
+  height: 55vh;
+  color: cornsilk;
+  text-align: center;
+  padding: calc(100vh * 0.2);
+}
+
+#skills .listSkills {
+  height: 55vh;
+  display: list-item;
+  margin: auto;
+  background: radial-gradient(circle, #444544, #282828);
+}
+
+#skills .listSkills ul {
+  list-style-type: none;
+  width: 100%;
+}
+
+#skills .listSkills li {
+  float: left;
+  margin: 2%;
+  padding: 2%;
+  border: solid 1.5px #444544;
+  box-shadow: 2px 3px #444544;
+  width: 10vw;
+  height: 6vh;
+  text-align: center;
+  background: rgb(248, 199, 108);
+  color: cornsilk;
+}
+
+#skills .photo button {
+    margin: 5%;
+}

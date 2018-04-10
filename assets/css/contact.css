@@ -1,6 +1,7 @@
 #contact {
   background: radial-gradient(circle, #444544, #282828);
   padding: 5%;
+  border-top: solid 3px rgb(248, 199, 108);
 }
 
 #contact .contact {
